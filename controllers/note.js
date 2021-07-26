@@ -32,9 +32,6 @@ var controller = {
             }
         });
     },
-    message: (req,res)=>{
-        return res.status(200).send({message:"hola"});
-    }
 }
 
 module.exports = controller;
