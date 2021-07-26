@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index"
   },
-  "author": "Martin Camacho-Diego Betancourt",
+  "author": "Martin Camacho",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.1",

@@ -2,9 +2,6 @@
 
 var express = require('express');
 //Ficheros de rutas
-var clientRoutes = require('./routes/client');
-var carRoutes = require('./routes/car');
-var orderRoutes = require('./routes/order');
 var noteRoutes = require('./routes/note');
 //Ejecucion de express 
 var app = express();
@@ -23,9 +20,6 @@ app.use((req, res, next) => {
 });
 
 //Rutas
-app.use('/',clientRoutes);
-app.use('/',carRoutes);
-app.use('/',orderRoutes);
 app.use('/',noteRoutes);
 //Exportar modulo
 module.exports = app;
